@@ -35,7 +35,7 @@ The analysis is designed as a GitHub-ready portfolio artifact, suitable for:
 Despite high case volumes, QA review does not scale linearly with registrations, suggesting structural review bottlenecks rather than data entry failure.
 
 # Data Completeness Assessment
-
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData2.png)
 
 Purpose: Measure conformity with minimum dataset standards.
 Statistical Findings
