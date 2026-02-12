@@ -1,36 +1,42 @@
 # Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights
 
-This project demonstrates the ability to move beyond dashboards into decision grade health intelligence, integrating registry operations, data quality science, and epidemiological insight into a single analytical narrative.
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/Screenshot%20(89).png)
 
-Portfolio Project Overview
+# Project Overview
 This project presents a registry-grade analytical review of a simulated population-based cancer registry using Power BI and supporting statistical analysis in Python. The objective is to demonstrate registry performance monitoring, data quality auditing, and epidemiological insight generation consistent with international cancer registry standards (IARC/WHO-aligned thinking).
 The analysis is designed as a GitHub-ready portfolio artifact, suitable for:
-•	Cancer Registry Officer / Data Analyst roles
-•	Health Information Systems & M&E roles
-•	Public Health & Epidemiology analytics portfolios
-________________________________________
-Dataset Summary
+-	Cancer Registry Officer / Data Analyst roles
+-	Health Information Systems & M&E roles
+-	Public Health & Epidemiology analytics portfolios
+
+# Dataset Summary
 •	Records: 10,000 cancer cases
 •	Geography: Multi state registry simulation (Nigeria)
 •	Unit of analysis: Individual cancer case (transaction-level)
 •	Core domains: Demographics, diagnosis, staging, treatment initiation, and quality assurance flags
-Key Variables
-•	Demographics: Age, Sex, State
-•	Clinical: Cancer Site, Stage at Diagnosis, Basis of Diagnosis
-•	Registry Operations: Facility Level, Abstracted By, QA Review Status
-•	Data Quality Flags: Completeness, Plausibility, Consistency, Backlog, Record Validity
-________________________________________
-Power BI Report – Page-by-Page Analytical Readout
-Page 1: Registry Performance Overview
-Purpose: Executive snapshot of registry health.
-Key Visuals & Insights
-•	Total Registered Cases: 10,000
-•	Treatment Initiation Rate: High (>85%), indicating reasonable linkage between diagnosis and care
-•	QA Review Coverage: Reveals operational throughput of registry quality processes
-Insight:
+
+# Key Variables
+-	Demographics: Age, Sex, State
+-	Clinical: Cancer Site, Stage at Diagnosis, Basis of Diagnosis
+-	Registry Operations: Facility Level, Abstracted By, QA Review Status
+-	Data Quality Flags: Completeness, Plausibility, Consistency, Backlog, Record Validity
+
+# Power BI Report – Page-by-Page Analytical Readout
+
+# Registry Performance Overview
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData1.png)
+
+## Key Visuals & Insights
+-	Total Registered Cases: 10,000
+-	Treatment Initiation Rate: High (>85%), indicating reasonable linkage between diagnosis and care
+-	QA Review Coverage: Reveals operational throughput of registry quality processes
+
+## Insight:
 Despite high case volumes, QA review does not scale linearly with registrations, suggesting structural review bottlenecks rather than data entry failure.
-________________________________________
-Page 2: Data Completeness Assessment
+
+# Data Completeness Assessment
+
+
 Purpose: Measure conformity with minimum dataset standards.
 Statistical Findings
 •	Stage completeness shows the highest incompleteness burden
