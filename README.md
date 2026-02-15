@@ -6,7 +6,7 @@
 This project presents a registry-grade analytical review of a simulated population-based cancer registry using Power BI and supporting statistical analysis in Python. The objective is to demonstrate registry performance monitoring, data quality auditing, and epidemiological insight generation consistent with international cancer registry standards (IARC/WHO).
 
 # Tools & Skills Demonstrated
--	Power BI,(DAX, data modeling, visual storytelling),SQL,Python.
+-	Power BI,(DAX, data modeling, visual storytelling), SQL, Python.
 -	Data Quality Framework Design
 -	Epidemiological reasoning
 -	Correlation & regression interpretation
@@ -89,13 +89,13 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 
 # Registry Maturity Assessment
 
-          |        Dimension            |  Analysis                   |
-          :----------------------------:|:----------------------------:
-              Case Captur               | Strong
-              Demographic Qualit        | Very Strong
-              Clinical Depth (Stage)	| Weak
-              QA Governance             | Moderate
-              Epidemiological Usefulness| High
+          |        Dimension        |  Analysis                 
+          :------------------------:|:--------------------------:
+          Case Captur               |  Strong
+          Demographic Qualit        |  Very Strong
+          Clinical Depth (Stage)    |  Weak
+          QA Governance             |  Moderate
+          Epidemiological Usefulness|  High
 
 # Key Recommendations
 1.	Strengthen clinical documentation workflows for staging
