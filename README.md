@@ -91,8 +91,8 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 
           Dimension                   Assessment                 
           
-          Case Captur                 Strong
-          Demographic Qualit          Very Strong
+          Case Capture                Strong
+          Demographic Quality         Very Strong
           Clinical Depth (Stage)      Weak
           QA Governance               Moderate
           Epidemiological Usefulness  High
