@@ -37,22 +37,27 @@ Despite high case volumes, QA review does not scale linearly with registrations,
 # Data Completeness Assessment
 ![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData2.png)
 
-Purpose: Measure conformity with minimum dataset standards.
-Statistical Findings
+**Purpose:** Measure conformity with minimum dataset standards.
+
+### Statistical Findings:
 •	Stage completeness shows the highest incompleteness burden
 •	Demographic fields (Age, Sex) exceed 95% completeness, aligning with registry best practice
-Operational Insight:
-Stage incompleteness reflects clinical documentation gaps, not abstraction failure—indicating a need for upstream clinician engagement.
-________________________________________
-Page 3: Data Validity & Plausibility
-Purpose: Identify biologically and temporally implausible records.
-Key Results
+
+**Operational Insight:** Stage incompleteness reflects clinical documentation gaps, not abstraction failure—indicating a need for upstream clinician engagement.
+
+# Data Validity & Plausibility
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData3.png)
+
+**Purpose:** Identify biologically and temporally implausible records.
+
+### Key Results
 •	Age plausibility violations are rare (<1%)
 •	Sex–Cancer site inconsistencies are minimal, confirming strong rule-based validation
-Interpretation:
+**Interpretation:**
 High plausibility compliance confirms that automated validation rules are effective and abstraction training is adequate.
-________________________________________
-Page 4: QA Backlog & Operational Risk
+
+# QA Backlog & Operational Risk
+![](
 Purpose: Highlight latent data quality risk.
 Findings
 •	QA Backlog Flag prevalence indicates pending review workload
