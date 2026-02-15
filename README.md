@@ -89,13 +89,13 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 
 # Registry Maturity Assessment
 
-          |        Dimension        |  Analysis                 
-          :------------------------:|:--------------------------:
-          Case Captur               |  Strong
-          Demographic Qualit        |  Very Strong
-          Clinical Depth (Stage)    |  Weak
-          QA Governance             |  Moderate
-          Epidemiological Usefulness|  High
+          Dimension                   Assessment                 
+          
+          Case Captur                 Strong
+          Demographic Qualit          Very Strong
+          Clinical Depth (Stage)      Weak
+          QA Governance               Moderate
+          Epidemiological Usefulness  High
 
 # Key Recommendations
 1.	Strengthen clinical documentation workflows for staging
