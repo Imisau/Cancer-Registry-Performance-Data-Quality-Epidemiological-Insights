@@ -3,17 +3,20 @@
 ![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/Screenshot%20(89).png)
 
 # Project Overview
-This project presents a registry-grade analytical review of a simulated population-based cancer registry using Power BI and supporting statistical analysis in Python. The objective is to demonstrate registry performance monitoring, data quality auditing, and epidemiological insight generation consistent with international cancer registry standards (IARC/WHO-aligned thinking).
-The analysis is designed as a GitHub-ready portfolio artifact, suitable for:
--	Cancer Registry Officer / Data Analyst roles
--	Health Information Systems & M&E roles
--	Public Health & Epidemiology analytics portfolios
+This project presents a registry-grade analytical review of a simulated population-based cancer registry using Power BI and supporting statistical analysis in Python. The objective is to demonstrate registry performance monitoring, data quality auditing, and epidemiological insight generation consistent with international cancer registry standards (IARC/WHO).
+
+# Tools & Skills Demonstrated
+-	Power BI,(DAX, data modeling, visual storytelling),SQL,Python.
+-	Data Quality Framework Design
+-	Epidemiological reasoning
+-	Correlation & regression interpretation
+-	Registry performance reporting
 
 # Dataset Summary
-•	Records: 10,000 cancer cases
-•	Geography: Multi state registry simulation (Nigeria)
-•	Unit of analysis: Individual cancer case (transaction-level)
-•	Core domains: Demographics, diagnosis, staging, treatment initiation, and quality assurance flags
+-	Records: 10,000 cancer cases
+-	Geography: Multi state registry simulation (Nigeria)
+-	Unit of analysis: Individual cancer case (transaction-level)
+-	Core domains: Demographics, diagnosis, staging, treatment initiation, and quality assurance flags
 
 # Key Variables
 -	Demographics: Age, Sex, State
@@ -40,8 +43,8 @@ Despite high case volumes, QA review does not scale linearly with registrations,
 **Purpose:** Measure conformity with minimum dataset standards.
 
 ### Statistical Findings:
-•	Stage completeness shows the highest incompleteness burden
-•	Demographic fields (Age, Sex) exceed 95% completeness, aligning with registry best practice
+-	Stage completeness shows the highest incompleteness burden
+-	Demographic fields (Age, Sex) exceed 95% completeness, aligning with registry best practice
 
 **Operational Insight:** Stage incompleteness reflects clinical documentation gaps, not abstraction failure—indicating a need for upstream clinician engagement.
 
@@ -51,59 +54,52 @@ Despite high case volumes, QA review does not scale linearly with registrations,
 **Purpose:** Identify biologically and temporally implausible records.
 
 ### Key Results
-•	Age plausibility violations are rare (<1%)
-•	Sex–Cancer site inconsistencies are minimal, confirming strong rule-based validation
+-	Age plausibility violations are rare (<1%)
+-	Sex–Cancer site inconsistencies are minimal, confirming strong rule-based validation
+
 **Interpretation:**
 High plausibility compliance confirms that automated validation rules are effective and abstraction training is adequate.
 
 # QA Backlog & Operational Risk
-![](
-Purpose: Highlight latent data quality risk.
-Findings
-•	QA Backlog Flag prevalence indicates pending review workload
-•	Weak correlation between backlog and record invalidity (r = −0.51)
-Statistical Insight:
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData4.png)
+
+**Purpose:** Highlight latent data quality risk.
+
+### Findings
+-	QA Backlog Flag prevalence indicates pending review workload
+-	Weak correlation between backlog and record invalidity (r = −0.51)
+
+**Statistical Insight:**
 The negative correlation suggests backlog accumulation is process driven, not quality driven—cases are waiting, not failing.
-________________________________________
-Page 5: Epidemiological Profile
-Purpose: Generate public health relevant insights.
-Observed Patterns
-•	Late-stage (III–IV) diagnoses dominate case mix
-•	Breast and lung cancers are leading sites
-Public Health Interpretation:
+
+# Epidemiological Profile
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/RegData5.png)
+
+**Purpose:** Generate public health relevant insights.
+
+### Observed Patterns
+-	Late-stage (III–IV) diagnoses dominate case mix
+-	Breast and lung cancers are leading sites
+
+**Public Health Interpretation:**
 The stage distribution signals systemic delays in diagnosis, supporting the need for early detection programs rather than registry-side intervention alone.
-________________________________________
-Regression & Correlation Analysis
-Correlation Matrix (Selected Variables)
-•	Record Validity vs QA Backlog: r = −0.51 (moderate inverse)
-•	Age vs Incompleteness: r ≈ 0.00 (no relationship)
-Regression Model
-Outcome: Overall Incomplete Flag
-Predictors: QA Backlog Flag, Record Validity Flag
-Results
-•	R² ≈ 0.00
-•	No statistically significant predictors (p > 0.05)
-Interpretation:
-Data incompleteness is structural and upstream, not explained by QA delays or validity flags. This supports a systems level intervention rather than micro level data cleaning.
-________________________________________
-Registry Maturity Assessment
-Dimension	Assessment
-Case Capture	Strong
-Demographic Quality	Very Strong
-Clinical Depth (Stage)	Weak
-QA Governance	Moderate
-Epidemiological Usefulness	High
-________________________________________
-Key Recommendations
+
+# Summarry
+- Data incompleteness is structural and upstream, not explained by QA delays or validity flags. This supports a systems level intervention rather than micro level data cleaning.
+                        **Registry Maturity Assessment**
+          | **Dimension**	              |    **Assessment**      
+          :----------------------------:|:-----------------------
+              Case Capture	             Strong
+              Demographic Quality	       Very Strong
+              Clinical Depth (Stage)	   Weak
+              QA Governance              Moderate
+              Epidemiological Usefulness High
+
+# Key Recommendations
 1.	Strengthen clinical documentation workflows for staging
 2.	Introduce risk based QA prioritization rather than volume-based review
 3.	Use backlog metrics as operational KPIs, not data quality KPIs
 4.	Leverage registry outputs for early detection policy advocacy
-________________________________________
-Tools & Skills Demonstrated
-•	Power BI (DAX, data modeling, visual storytelling)
-•	Data Quality Framework Design
-•	Epidemiological reasoning
-•	Correlation & regression interpretation
-•	Registry performance reporting
+
+Interact with dataset 
 
