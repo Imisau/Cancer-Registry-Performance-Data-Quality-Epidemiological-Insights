@@ -88,12 +88,12 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 - Data incompleteness is structural and upstream, not explained by QA delays or validity flags. This supports a systems level intervention rather than micro level data cleaning.
                         **Registry Maturity Assessment**
           | **Dimension**	              |    **Assessment**      
-          :----------------------------:|:-----------------------
-              Case Capture	             Strong
-              Demographic Quality	       Very Strong
-              Clinical Depth (Stage)	   Weak
-              QA Governance              Moderate
-              Epidemiological Usefulness High
+          :----------------------------:|:-----------------------:
+              Case Capture	            | Strong
+              Demographic Quality	      | Very Strong
+              Clinical Depth (Stage)	  | Weak
+              QA Governance             | Moderate
+              Epidemiological Usefulness| High
 
 # Key Recommendations
 1.	Strengthen clinical documentation workflows for staging
@@ -101,5 +101,5 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 3.	Use backlog metrics as operational KPIs, not data quality KPIs
 4.	Leverage registry outputs for early detection policy advocacy
 
-Interact with dataset 
+Interact with dataset [Here](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/registry_data_quality_audit_dataset_10000.csv) 
 
