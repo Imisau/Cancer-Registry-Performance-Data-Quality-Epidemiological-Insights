@@ -87,7 +87,8 @@ The stage distribution signals systemic delays in diagnosis, supporting the need
 # Summarry
 - Data incompleteness is structural and upstream, not explained by QA delays or validity flags. This supports a systems level intervention rather than micro level data cleaning.
                         **Registry Maturity Assessment**
-          | **Dimension**	              |    **Assessment**      
+
+          | Dimension	                  |    Assessment          |
           :----------------------------:|:-----------------------:
               Case Capture	            | Strong
               Demographic Quality	      | Very Strong
