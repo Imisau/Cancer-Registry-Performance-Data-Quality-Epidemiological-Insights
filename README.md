@@ -1,6 +1,6 @@
 # Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights
 
-![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/Screenshot%20(89).png)
+![](https://github.com/Imisau/Cancer-Registry-Performance-Data-Quality-Epidemiological-Insights/blob/main/Screenshot%20(83).png)
 
 # Project Overview
 This project presents a registry-grade analytical review of a simulated population-based cancer registry using Power BI and supporting statistical analysis in Python. The objective is to demonstrate registry performance monitoring, data quality auditing, and epidemiological insight generation consistent with international cancer registry standards (IARC/WHO).
